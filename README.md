@@ -114,14 +114,18 @@ MULTIPLXER:
 
 ![image](https://github.com/SubashiniSenniappan/Exercise-07-Multiplexer-and-De-multiplexer/assets/119404951/cec08dbb-5d1a-4e34-9964-c6e0cdc32864)
 
- 
+ ![Screenshot 2023-06-07 163744](https://github.com/SubashiniSenniappan/Exercise-07-Multiplexer-and-De-multiplexer/assets/119404951/ecfd8e08-b689-4910-a6c0-76607c0e4d25)
+
 
 
 ### TRUTH TABLE 
+![Screenshot 2023-06-07 163749](https://github.com/SubashiniSenniappan/Exercise-07-Multiplexer-and-De-multiplexer/assets/119404951/696e5dd2-8c70-4870-a922-2b01dd2c3100)
 
 
+![Screenshot 2023-06-07 163758](https://github.com/SubashiniSenniappan/Exercise-07-Multiplexer-and-De-multiplexer/assets/119404951/b80e68c6-4308-4e21-9b53-c8d04c0c68a6)
 
 
 
 
 ### RESULTS 
+Hence the 4 X1 multiplexer and 1X4 de multiplexer has been implemented using verilog and outputs are validated.
