@@ -115,7 +115,7 @@ MULTIPLXER:
 
 ![image](https://github.com/SubashiniSenniappan/Exercise-07-Multiplexer-and-De-multiplexer/assets/119404951/cec08dbb-5d1a-4e34-9964-c6e0cdc32864)
 
-
+ 
 
 
 ### TRUTH TABLE 
