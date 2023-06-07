@@ -118,19 +118,6 @@ MULTIPLXER:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### TRUTH TABLE 
 
 
