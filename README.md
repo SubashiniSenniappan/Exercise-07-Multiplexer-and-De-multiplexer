@@ -104,7 +104,6 @@ DEMULTIPLEXER:
 
 ![image](https://github.com/SubashiniSenniappan/Exercise-07-Multiplexer-and-De-multiplexer/assets/119404951/339ae32d-59e8-4477-9ee7-9ff9841af683)
 
-
 ### TIMING DIGRAMS  
 
 MULTIPLXER:
