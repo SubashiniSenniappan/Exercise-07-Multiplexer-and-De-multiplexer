@@ -47,33 +47,85 @@ If the control input changes to AB = 10, then all the gates are restricted excep
  
  
 ### Procedure
-/* write all the steps invloved */
 
+Step 1 Create a project with required entities.
+
+Step 2 Create a module along with respective file name for both Multiplexer and De-multiplexer.
+
+Step 3 Run the module and get the respective RTL outputs.
+
+Step 4 Create university program(VWF) for getting timing diagram.
+
+Step 5 Give the respective inputs for timing diagram and obtain the results.
 
 
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: subashini
+RegisterNumber:  212222240106
 
-
-
-
-
+*MULTIPLEXER:
+```
+module multi (s0,s1,a0,a1,a2,a3,y);
+input s0,s1,a0,a1,a2,a3;
+output y;
+wire a,b,c,d,s0bar,s1bar;
+not (s0bar,s0);
+not (s1bar,s1);
+and (a,s0,s1,a3);
+and (b,s0bar,s1,a2);
+and (c,s0,s1bar,a1);
+and (d,s0bar,s1bar,a0); 
+or (y,a,b,c,d); 
+endmodule
+```
+DEMULTIPLEXER:
+```
+module demul(y0,y1,y2,y3,s0,s1,i);
+input s0,s1,i;
+output y0,y1,y2,y3;
+wire sbar,s1bar; 
+nor(sbar,s0); 
+nor(s1bar,s1);
+and(y0,i,sbar,s1);
+and(y1,i,sbar,s1bar); 
+and(y2,i,s0,s1bar);
+and(y3,i,s0,s1);
+endmodule
+```
 
 ### RTL LOGIC  
+MULTIPLEXER:
 
 ![image](https://github.com/SubashiniSenniappan/Exercise-07-Multiplexer-and-De-multiplexer/assets/119404951/42d97926-5fd2-4f51-95bc-97d71e9e7eee)
 
+DEMULTIPLEXER:
 
-
-
-
+![image](https://github.com/SubashiniSenniappan/Exercise-07-Multiplexer-and-De-multiplexer/assets/119404951/339ae32d-59e8-4477-9ee7-9ff9841af683)
 
 
 ### TIMING DIGRAMS  
+
+MULTIPLXER:
+
+![image](https://github.com/SubashiniSenniappan/Exercise-07-Multiplexer-and-De-multiplexer/assets/119404951/9ce8d6c9-d48f-4bd6-9272-0528cf83e22a)
+
+![image](https://github.com/SubashiniSenniappan/Exercise-07-Multiplexer-and-De-multiplexer/assets/119404951/dbabfa27-21a2-4e72-bca0-a82c11161e9e)
+
+![image](https://github.com/SubashiniSenniappan/Exercise-07-Multiplexer-and-De-multiplexer/assets/119404951/cec08dbb-5d1a-4e34-9964-c6e0cdc32864)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
