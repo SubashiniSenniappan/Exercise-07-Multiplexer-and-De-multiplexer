@@ -65,6 +65,7 @@ RegisterNumber:
 
 ### RTL LOGIC  
 
+![image](https://github.com/SubashiniSenniappan/Exercise-07-Multiplexer-and-De-multiplexer/assets/119404951/42d97926-5fd2-4f51-95bc-97d71e9e7eee)
 
 
 
